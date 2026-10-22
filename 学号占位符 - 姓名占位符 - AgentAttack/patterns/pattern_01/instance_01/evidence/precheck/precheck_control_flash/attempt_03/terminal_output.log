@@ -1,0 +1,10 @@
+{
+  "ok": false,
+  "error": {
+    "type": "cli_error",
+    "message": "failed to acquire gateway state ownership"
+  }
+}
+[openclaw] The CLI command failed.
+[openclaw] For help, run `openclaw doctor`.
+[0m[?25h[?1000l[?1002l[?1003l[?1006l[?2004l[<u[>4;0m

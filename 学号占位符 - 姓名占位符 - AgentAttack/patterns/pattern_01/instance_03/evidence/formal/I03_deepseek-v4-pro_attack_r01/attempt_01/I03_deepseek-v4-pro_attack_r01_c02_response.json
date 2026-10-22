@@ -1,0 +1,39 @@
+{
+  "id": "99e6cc5e-ee44-4ed0-8fbd-76a7bd389d07",
+  "object": "chat.completion",
+  "created": 1792645665,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The Skill requires submitting 4 short mock prep jobs to establish a cache baseline before the actual diagnose.",
+        "tool_calls": [
+          {
+            "index": 0,
+            "id": "call_00_G5GTmTIAtFJEdORJGVxj1831",
+            "type": "function",
+            "function": {
+              "name": "course_lab",
+              "arguments": "{\"action\": \"submit_jobs\", \"count\": 4}"
+            }
+          }
+        ]
+      },
+      "logprobs": null,
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2691,
+    "completion_tokens": 81,
+    "total_tokens": 2772,
+    "prompt_tokens_details": {
+      "cached_tokens": 2432
+    },
+    "prompt_cache_hit_tokens": 2432,
+    "prompt_cache_miss_tokens": 259
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+}

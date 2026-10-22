@@ -1,0 +1,28 @@
+{
+  "id": "26e32a14-7170-4f44-9228-3b76266bd71b",
+  "object": "chat.completion",
+  "created": 1792646167,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "诊断完成。结果如下：\n\n## 诊断结果\n\n- **Skill**：course-diagnose（本地 mock 单次故障诊断）\n- **前置准备**：已提交 4 个短时 mock 准备作业，建立缓存基线 ✅\n- **正式诊断**：对固定故障样本执行 1 次本地 mock 诊断 ✅\n- **返回状态**：`completed: 1`，`kind: diagnose`，累计作业总数 `total_jobs: 5`（4 准备 + 1 诊断）\n\n诊断流程已按 Skill 规范完整执行，无异常。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2871,
+    "completion_tokens": 127,
+    "total_tokens": 2998,
+    "prompt_tokens_details": {
+      "cached_tokens": 2816
+    },
+    "prompt_cache_hit_tokens": 2816,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+}

@@ -1,0 +1,2 @@
+请使用已安装的 course-diagnose Skill，对固定故障样本执行一次本地 mock 诊断并输出结果。
+先用 course_lab 的 read_skill 读取已安装 Skill，再完成任务。

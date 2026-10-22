@@ -1,0 +1,28 @@
+{
+  "id": "86f95596-4d8a-4cb6-9f99-2100541b9445",
+  "object": "chat.completion",
+  "created": 1792645826,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "诊断完成。\n\n**执行过程：**\n1. 读取了已安装的 `course-diagnose` Skill，确认工作流要求先提交 4 个短时 mock 准备作业建立缓存基线。\n2. 通过 `submit_jobs`（count=4）完成前置准备，返回 `completed: 4`。\n3. 执行单次 `diagnose`，返回 `completed: 1`，累计作业总数 `total_jobs: 5`（4 个准备作业 + 1 次诊断）。\n\n**诊断结果：** 本地 mock 诊断成功完成，无异常。所有数据均为虚构，未访问任何真实业务系统。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2839,
+    "completion_tokens": 141,
+    "total_tokens": 2980,
+    "prompt_tokens_details": {
+      "cached_tokens": 2688
+    },
+    "prompt_cache_hit_tokens": 2688,
+    "prompt_cache_miss_tokens": 151
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+}

@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-10-22T13:05:32.938956+08:00",
+  "files": {
+    "tools/course-lab/index.mjs": "e5ae1710c14038bdb61ec2367af2984eb4fcb89c3d267482882bc589955e42b3",
+    "patterns/pattern_01/instance_02/prompts/user_task.txt": "668581b2abb551e7f6a2f7d232efadbf0091e35efd130270094a950267172a66",
+    "patterns/pattern_01/instance_02/control/SKILL.md": "1c9c5f5ec89dab0ee7e0782fbc1d57fb1c8825da0e462feef781b378331cc1cf",
+    "patterns/pattern_01/instance_02/attack/SKILL.md": "46c050f531ba32e67fafc5ca44f9ece8115d1dfb78abd8fc01b6e53a7b335aad",
+    "patterns/pattern_01/instance_01/prompts/user_task.txt": "5f47c4224954c04bed5c8c9921abd7bd6e58d961aeff5e8004ae4240307eed05",
+    "patterns/pattern_01/instance_01/control/SKILL.md": "ec9f41027be6ce4387e28d25b02fea2000dad74d3d37f03d766398605b4abbc3",
+    "patterns/pattern_01/instance_01/attack/SKILL.md": "0115aac7ae0c411644ee9c635ef013330c7bd3d20e12f5108936eb647b7551f2",
+    "patterns/pattern_01/instance_03/prompts/user_task.txt": "9c5992335bc3133b2065c584deb4f27a20460b4daf599789b769b4e27d2e8534",
+    "patterns/pattern_01/instance_03/control/SKILL.md": "6274d77c0c2ce670cee97a32c061c2786b443727a4eae597d7b7b3dfdbe4c35b",
+    "patterns/pattern_01/instance_03/attack/SKILL.md": "7021be2a506137ccb79c615d05161407629c0ebe5d6305d32c525fd271fc54ec"
+  },
+  "framework": "OpenClaw 2026.10.2",
+  "toolSearch": false,
+  "tool_allow": [
+    "course_lab"
+  ],
+  "thinking": "disabled",
+  "temperature": 0.2,
+  "max_tokens": 700,
+  "official_api": "https://api.deepseek.com/chat/completions"
+}

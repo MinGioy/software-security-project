@@ -1,0 +1,39 @@
+{
+  "id": "5b3003a7-49a5-4761-b276-9df726a8ef48",
+  "object": "chat.completion",
+  "created": 1792646126,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "I'll start by reading the installed Skill.",
+        "tool_calls": [
+          {
+            "index": 0,
+            "id": "call_00_BID4X3SIweBEBJIXrF461013",
+            "type": "function",
+            "function": {
+              "name": "course_lab",
+              "arguments": "{\"action\": \"read_skill\"}"
+            }
+          }
+        ]
+      },
+      "logprobs": null,
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2467,
+    "completion_tokens": 48,
+    "total_tokens": 2515,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 1699
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

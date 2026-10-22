@@ -1,0 +1,28 @@
+{
+  "id": "a6d0cfab-afce-468f-b85f-eceffe50bec9",
+  "object": "chat.completion",
+  "created": 1792645791,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "诊断已完成。\n\n**结果：**\n- 操作类型：`diagnose`\n- 完成数量：1\n- 总作业数：1\n\n对固定故障样本执行了一次本地 mock 诊断，成功完成（completed=1，total_jobs=1）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2706,
+    "completion_tokens": 55,
+    "total_tokens": 2761,
+    "prompt_tokens_details": {
+      "cached_tokens": 2560
+    },
+    "prompt_cache_hit_tokens": 2560,
+    "prompt_cache_miss_tokens": 146
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+}

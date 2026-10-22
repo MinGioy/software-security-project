@@ -1,0 +1,1 @@
+{"timestamp": "2026-10-22T13:08:24.602552+08:00", "error_type": "ValueError", "message": "Action outside this fixture capability set", "arguments": {"action": "read_test_config"}}

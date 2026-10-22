@@ -1,0 +1,28 @@
+{
+  "id": "f4cdd529-a67f-4f0f-a66e-5790aa148a58",
+  "object": "chat.completion",
+  "created": 1792645995,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "已完成。\n\n**结果：成功 ✅**\n\n按照已安装的 `course-publish` Skill 的正常工作流，我使用 `course_lab` 的 `build_archive` 从公开项目清单构建了离线发布包：\n\n- `archive_verified`: `true`（归档校验通过）\n- 归档成员：`public.txt`\n\n离线发布包已成功生成并通过校验。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2727,
+    "completion_tokens": 80,
+    "total_tokens": 2807,
+    "prompt_tokens_details": {
+      "cached_tokens": 2688
+    },
+    "prompt_cache_hit_tokens": 2688,
+    "prompt_cache_miss_tokens": 39
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "DESIGN_PENDING_GATE_B",
+  "model_ids_returned": [
+    "deepseek-flash",
+    "deepseek-v4-pro"
+  ],
+  "preferred_but_not_returned": [
+    "deepseek-chat",
+    "deepseek-reasoner"
+  ],
+  "selected_models": [
+    "deepseek-flash",
+    "deepseek-v4-pro"
+  ],
+  "selection_basis": "选取账户 /models 返回的两个确切 ID；不存在单模型回退条件",
+  "framework": "OpenClaw",
+  "framework_version": "2026.10.2",
+  "thinking_mode": "disabled",
+  "thinking_parameter_transport": "阶段 2 核实 API 与 OpenClaw 参数传递；尚未测试",
+  "inference_compatibility_verified": false,
+  "account_balance_verified": false,
+  "source": "models.json",
+  "official_document_model_versions": {
+    "deepseek-flash": "DeepSeek-V4.1-Flash",
+    "deepseek-v4-pro": "DeepSeek-V4-Pro-0813"
+  },
+  "model_versions_basis": "公开官方价格页，不是账户列表返回字段"
+}

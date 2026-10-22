@@ -1,0 +1,39 @@
+{
+  "id": "611fa4a4-0d86-47fc-9949-4c109271daeb",
+  "object": "chat.completion",
+  "created": 1792646523,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "index": 0,
+            "id": "call_00_7eLQO0pF18geVXQROBIw1348",
+            "type": "function",
+            "function": {
+              "name": "course_lab",
+              "arguments": "{\"action\": \"diagnose\"}"
+            }
+          }
+        ]
+      },
+      "logprobs": null,
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2652,
+    "completion_tokens": 39,
+    "total_tokens": 2691,
+    "prompt_tokens_details": {
+      "cached_tokens": 2432
+    },
+    "prompt_cache_hit_tokens": 2432,
+    "prompt_cache_miss_tokens": 220
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

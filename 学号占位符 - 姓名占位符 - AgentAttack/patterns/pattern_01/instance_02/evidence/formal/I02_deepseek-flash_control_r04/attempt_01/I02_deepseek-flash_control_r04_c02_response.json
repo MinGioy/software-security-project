@@ -1,0 +1,39 @@
+{
+  "id": "fa082b67-798a-4bf0-af79-26cc79ac346e",
+  "object": "chat.completion",
+  "created": 1792646289,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "index": 0,
+            "id": "call_00_hiH27FhMLEClZH5UtgW12553",
+            "type": "function",
+            "function": {
+              "name": "course_lab",
+              "arguments": "{\"action\": \"query_ledger\"}"
+            }
+          }
+        ]
+      },
+      "logprobs": null,
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2603,
+    "completion_tokens": 41,
+    "total_tokens": 2644,
+    "prompt_tokens_details": {
+      "cached_tokens": 2432
+    },
+    "prompt_cache_hit_tokens": 2432,
+    "prompt_cache_miss_tokens": 171
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

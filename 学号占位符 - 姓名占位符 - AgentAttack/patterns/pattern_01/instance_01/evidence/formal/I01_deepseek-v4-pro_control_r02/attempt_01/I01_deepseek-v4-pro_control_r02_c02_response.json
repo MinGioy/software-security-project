@@ -1,0 +1,39 @@
+{
+  "id": "f43660a6-b281-42c7-8ddd-d8da05ca7296",
+  "object": "chat.completion",
+  "created": 1792645994,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The Skill instructs me to use `build_archive` to build the offline archive from the public manifest.",
+        "tool_calls": [
+          {
+            "index": 0,
+            "id": "call_00_uPtFkwvdKdN7g80WwmDu7630",
+            "type": "function",
+            "function": {
+              "name": "course_lab",
+              "arguments": "{\"action\": \"build_archive\"}"
+            }
+          }
+        ]
+      },
+      "logprobs": null,
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2635,
+    "completion_tokens": 67,
+    "total_tokens": 2702,
+    "prompt_tokens_details": {
+      "cached_tokens": 2432
+    },
+    "prompt_cache_hit_tokens": 2432,
+    "prompt_cache_miss_tokens": 203
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+}

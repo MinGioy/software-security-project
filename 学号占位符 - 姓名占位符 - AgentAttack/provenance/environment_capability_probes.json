@@ -1,0 +1,11 @@
+{
+  "record_type": "capability_probe_not_attack_experiment",
+  "timestamp": "2026-10-13T13:44:20.308581+08:00",
+  "listen_host": "127.0.0.1",
+  "port": 46443,
+  "localhost_http_status": 200,
+  "browser_version": "154.0.8037.57",
+  "screenshot_saved": true,
+  "video_files": [],
+  "video_status": "未启用：前次验证缺少 Playwright 专用 ffmpeg；系统终端录制已可用"
+}

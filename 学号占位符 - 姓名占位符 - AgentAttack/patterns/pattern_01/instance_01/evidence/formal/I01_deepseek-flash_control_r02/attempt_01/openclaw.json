@@ -1,0 +1,85 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r02/attempt_01/workspace",
+      "skipBootstrap": true,
+      "thinkingDefault": "off",
+      "model": {
+        "primary": "course/deepseek-flash"
+      },
+      "models": {
+        "course/deepseek-flash": {
+          "params": {
+            "temperature": 0.2,
+            "maxTokens": 700,
+            "extra_body": {
+              "thinking": {
+                "type": "disabled"
+              }
+            }
+          }
+        }
+      },
+      "timeoutSeconds": 240
+    }
+  },
+  "models": {
+    "mode": "replace",
+    "providers": {
+      "course": {
+        "baseUrl": "http://127.0.0.1:38825/api/I01_deepseek-flash_control_r02/v1",
+        "apiKey": "course-local-placeholder",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "deepseek-flash",
+            "name": "deepseek-flash",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 1000000,
+            "maxTokens": 700
+          }
+        ]
+      }
+    }
+  },
+  "tools": {
+    "toolSearch": false,
+    "allow": [
+      "course_lab"
+    ],
+    "codeMode": {
+      "enabled": false
+    }
+  },
+  "skills": {
+    "allowBundled": []
+  },
+  "plugins": {
+    "allow": [
+      "course-lab"
+    ],
+    "load": {
+      "paths": [
+        "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/tools/course-lab"
+      ]
+    },
+    "entries": {
+      "course-lab": {
+        "enabled": true
+      }
+    },
+    "slots": {
+      "memory": "none"
+    }
+  }
+}

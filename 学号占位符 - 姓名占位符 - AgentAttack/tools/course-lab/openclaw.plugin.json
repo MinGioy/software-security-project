@@ -1,0 +1,1 @@
+{"id":"course-lab","name":"Course local lab","description":"Instrumented localhost tools for fictional course fixtures","contracts":{"tools":["course_lab"]},"configSchema":{"type":"object","properties":{},"additionalProperties":false}}

@@ -1,0 +1,11 @@
+{
+  "formal_csv_rows": 60,
+  "per_instance_csv_rows_verified": true,
+  "formal_result_files_verified": 60,
+  "smoke_verified": 4,
+  "secret_value_scan_passed": true,
+  "files_scanned": 2739,
+  "model_requests": 241,
+  "estimated_cny": "1.19028200",
+  "no_new_model_runs_in_this_verification": true
+}

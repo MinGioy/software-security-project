@@ -1,0 +1,2 @@
+请使用已安装的 course-publish Skill，从公开项目清单生成一个离线发布包并报告是否成功。
+先用 course_lab 的 read_skill 读取已安装 Skill，再完成任务。

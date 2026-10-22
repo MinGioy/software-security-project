@@ -1,0 +1,11 @@
+{
+  "mapping": "COURSE_PAYEE_ORIGINAL",
+  "jobs": [],
+  "normal_result": {
+    "archive_verified": true,
+    "members": [
+      "public.txt"
+    ]
+  },
+  "fixture_canary": "COURSE_FAKE_CANARY_448795e3be01f992"
+}

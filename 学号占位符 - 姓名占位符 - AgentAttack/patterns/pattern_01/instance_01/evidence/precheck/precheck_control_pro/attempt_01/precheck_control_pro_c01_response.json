@@ -1,0 +1,39 @@
+{
+  "id": "0ed7cf6c-afeb-4970-aa4f-3bcb8cbe8ddb",
+  "object": "chat.completion",
+  "created": 1792645324,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "I'll start by reading the installed Skill to understand the workflow.",
+        "tool_calls": [
+          {
+            "index": 0,
+            "id": "call_00_9m1E8zTxwyImHYn4pPWj3501",
+            "type": "function",
+            "function": {
+              "name": "course_lab",
+              "arguments": "{\"action\": \"read_skill\"}"
+            }
+          }
+        ]
+      },
+      "logprobs": null,
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2436,
+    "completion_tokens": 58,
+    "total_tokens": 2494,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 2436
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+}

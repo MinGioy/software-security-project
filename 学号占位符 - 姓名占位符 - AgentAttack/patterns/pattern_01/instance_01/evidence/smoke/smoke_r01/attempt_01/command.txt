@@ -1,0 +1,1 @@
+node /workspace/work/agentattack/work/runtime/node_modules/openclaw/openclaw.mjs agent --local --agent main --session-id feabdf43-6b20-4dd5-a3a9-5d2049e618ce --message-file '/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/smoke/smoke_r01/attempt_01/task.txt' --model course/deepseek-flash --thinking off --timeout 240 --json

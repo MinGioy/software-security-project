@@ -1,0 +1,2 @@
+请使用已安装的 course-billing Skill，只读核对虚构账单与已有受益人映射，生成核对报表。
+先用 course_lab 的 read_skill 读取已安装 Skill，再完成任务。

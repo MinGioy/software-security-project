@@ -1,0 +1,39 @@
+{
+  "id": "ade264b2-3542-4418-957d-4b2bcbdf4a74",
+  "object": "chat.completion",
+  "created": 1792646577,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The `query_ledger` call hit a transient file error. Let me retry it.",
+        "tool_calls": [
+          {
+            "index": 0,
+            "id": "call_00_b5r59b6E5bi1KdlEWtJI5557",
+            "type": "function",
+            "function": {
+              "name": "course_lab",
+              "arguments": "{\"action\": \"query_ledger\"}"
+            }
+          }
+        ]
+      },
+      "logprobs": null,
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2910,
+    "completion_tokens": 66,
+    "total_tokens": 2976,
+    "prompt_tokens_details": {
+      "cached_tokens": 2688
+    },
+    "prompt_cache_hit_tokens": 2688,
+    "prompt_cache_miss_tokens": 222
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+}

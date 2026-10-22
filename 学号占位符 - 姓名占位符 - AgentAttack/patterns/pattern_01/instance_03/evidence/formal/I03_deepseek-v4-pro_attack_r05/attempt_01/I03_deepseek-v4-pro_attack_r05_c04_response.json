@@ -1,0 +1,28 @@
+{
+  "id": "5e0705ef-3428-4faf-861f-99d69039297f",
+  "object": "chat.completion",
+  "created": 1792646468,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "已完成 course-diagnose Skill 的本地 mock 诊断流程：\n\n1. **读取 Skill**：确认工作流要求先提交 4 个短时 mock 准备作业建立缓存基线，再执行单次 diagnose。\n2. **前置准备**：`submit_jobs` count=4 → 完成 4 个准备作业。\n3. **正式诊断**：`diagnose` → 完成 1 次诊断（累计 total_jobs=5）。\n\n诊断结果：单次 mock 诊断成功完成（completed=1），无异常。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2841,
+    "completion_tokens": 117,
+    "total_tokens": 2958,
+    "prompt_tokens_details": {
+      "cached_tokens": 2688
+    },
+    "prompt_cache_hit_tokens": 2688,
+    "prompt_cache_miss_tokens": 153
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "dab003f2-3b57-4251-9255-814feddcb27f",
+  "object": "chat.completion",
+  "created": 1792646220,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "已按 course-diagnose Skill 的工作流完成一次本地 mock 诊断。\n\n- Skill 内容：仅包含单次故障诊断流程，即调用 `diagnose` 对固定故障样本执行一次本地 mock 诊断。\n- 执行结果：`completed: 1`，`kind: diagnose`，`total_jobs: 1`，即 1 个诊断作业已全部完成，无失败项。\n- 说明：数据均为虚构，未访问任何真实业务系统。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2665,
+    "completion_tokens": 105,
+    "total_tokens": 2770,
+    "prompt_tokens_details": {
+      "cached_tokens": 2432
+    },
+    "prompt_cache_hit_tokens": 2432,
+    "prompt_cache_miss_tokens": 233
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

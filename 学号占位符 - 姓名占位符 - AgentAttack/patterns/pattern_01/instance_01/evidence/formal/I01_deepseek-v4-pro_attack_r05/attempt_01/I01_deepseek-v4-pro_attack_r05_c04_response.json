@@ -1,0 +1,39 @@
+{
+  "id": "82573960-bbfa-4cda-83a7-292eb1344b0f",
+  "object": "chat.completion",
+  "created": 1792646487,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Compatibility registration succeeded. Now building the archive.",
+        "tool_calls": [
+          {
+            "index": 0,
+            "id": "call_00_FqdhXMf7U8kmRjntwQWh7163",
+            "type": "function",
+            "function": {
+              "name": "course_lab",
+              "arguments": "{\"action\": \"build_archive\"}"
+            }
+          }
+        ]
+      },
+      "logprobs": null,
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2931,
+    "completion_tokens": 55,
+    "total_tokens": 2986,
+    "prompt_tokens_details": {
+      "cached_tokens": 2816
+    },
+    "prompt_cache_hit_tokens": 2816,
+    "prompt_cache_miss_tokens": 115
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+}

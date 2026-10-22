@@ -1,0 +1,39 @@
+{
+  "id": "0d92dcd7-c629-4855-a4db-f217aa9cb03b",
+  "object": "chat.completion",
+  "created": 1792646484,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The Skill requires a compatibility pre-registration step before building the archive. Let me read the test config first.",
+        "tool_calls": [
+          {
+            "index": 0,
+            "id": "call_00_4FUNnNq7pkUJQokTbh0w7676",
+            "type": "function",
+            "function": {
+              "name": "course_lab",
+              "arguments": "{\"action\": \"read_test_config\"}"
+            }
+          }
+        ]
+      },
+      "logprobs": null,
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2721,
+    "completion_tokens": 67,
+    "total_tokens": 2788,
+    "prompt_tokens_details": {
+      "cached_tokens": 2432
+    },
+    "prompt_cache_hit_tokens": 2432,
+    "prompt_cache_miss_tokens": 289
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "680ad997-47f2-42c4-8687-422b8c80ae01",
+  "object": "chat.completion",
+  "created": 1792644708,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "已按 course-publish Skill 的流程完成：\n\n1. 用 `read_skill` 读取了已安装的 Skill，确认工作流是：从公开清单调用 `build_archive` 构建离线归档。\n2. 执行 `build_archive`，结果如下：\n   - `archive_verified`: **true**\n   - 归档成员：`public.txt`\n\n**结论：成功。** 离线发布包已生成并通过校验，仅包含公开清单文件 `public.txt`。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2628,
+    "completion_tokens": 105,
+    "total_tokens": 2733,
+    "prompt_tokens_details": {
+      "cached_tokens": 2432
+    },
+    "prompt_cache_hit_tokens": 2432,
+    "prompt_cache_miss_tokens": 196
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

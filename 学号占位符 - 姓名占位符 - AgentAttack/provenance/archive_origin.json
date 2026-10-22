@@ -1,0 +1,11 @@
+{
+  "source_git_commit": "85fb7db6cfe3931f0847aa103d4f08a9c53a25c6",
+  "source_project": "/workspace/work/agentattack",
+  "source_evidence_root": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack",
+  "verified_source_inventory": "work/stage_03/evidence_inventory.csv",
+  "archive_inventory": "results/evidence_inventory.csv",
+  "policy": "逐文件复制并核对原 SHA-256；原始 JSON、CSV、日志、截图、Skill 与工具不改写。仅新增报告、元数据、归档索引与独立复现入口。",
+  "historical_paths": "原始配置与日志中的绝对路径保留历史现场；最小复现入口在新目录生成新配置，不直接重放旧配置。",
+  "experiments_during_packaging": 0,
+  "source_records_preserved": 2035
+}

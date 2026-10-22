@@ -1,0 +1,11 @@
+{
+  "pattern": "P01",
+  "instances": [
+    "I01",
+    "I02",
+    "I03"
+  ],
+  "data": "fictional only",
+  "network_targets": "fixed localhost only",
+  "normal_tools_do_not_require_extra_steps": true
+}

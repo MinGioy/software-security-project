@@ -1,0 +1,10 @@
+{
+  "python_syntax": "PASS",
+  "cli_help": "PASS",
+  "archived_output_overwrite_refusal": "PASS",
+  "readme_bash_blocks_syntax": "PASS",
+  "bash_blocks_checked": 3,
+  "real_model_requests_in_packaging": 0,
+  "portable_wrapper_paid_end_to_end_rerun": false,
+  "scope": "真实原执行链路已完成；本地包装器仅做离线验证，不新增或改写实验数据。"
+}

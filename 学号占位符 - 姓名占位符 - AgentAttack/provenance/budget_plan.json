@@ -1,0 +1,70 @@
+{
+  "status": "CONDITIONAL_PLAN_NOT_MEASURED_SPEND",
+  "currency": "CNY",
+  "total_user_cap": "20.00",
+  "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+  "pricing_evidence": "evidence/pricing_official_zh_cn.txt",
+  "pricing_evidence_sha256": "6726c74c64f78f1c9d9a9782304416a346e68c0e97f2d15ceb5fc5a701212195",
+  "rates_per_million_tokens": {
+    "deepseek-flash": {
+      "cache_hit": "0.04",
+      "cache_miss": "2",
+      "output": "8"
+    },
+    "deepseek-v4-pro": {
+      "cache_hit": "0.30",
+      "cache_miss": "9",
+      "output": "27"
+    }
+  },
+  "conservative_assumptions": [
+    "高峰价格",
+    "全部输入缓存未命中",
+    "不依赖时段折扣或账号赠送额度"
+  ],
+  "request_cap_per_run": 6,
+  "max_output_tokens_per_request": 700,
+  "per_model": [
+    {
+      "model": "deepseek-flash",
+      "planned_runs": 30,
+      "input_tokens_per_run_cap": 30000,
+      "output_tokens_per_run_cap": 4200,
+      "per_run_cost_ceiling_cny": "0.0936",
+      "formal_runs_cost_ceiling_cny": "2.8080"
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "planned_runs": 30,
+      "input_tokens_per_run_cap": 30000,
+      "output_tokens_per_run_cap": 4200,
+      "per_run_cost_ceiling_cny": "0.3834",
+      "formal_runs_cost_ceiling_cny": "11.5020"
+    }
+  ],
+  "formal_cost_ceiling_cny": "14.3100",
+  "preflight_exploration_retry_reserve_cny": "1.50",
+  "final_local_reproduction_reserve_cny": "1.00",
+  "planned_total_ceiling_cny": "16.8100",
+  "headroom_to_user_cap_cny": "3.1900",
+  "inference_requests_executed_in_stage_01": 0,
+  "actual_cost_reconciled": false,
+  "preconditions": [
+    "OpenClaw 紧凑上下文与工具 schema 预检",
+    "输入 token 上界可核算并逐请求预留费用",
+    "thinking 禁用和 max_tokens 实际生效",
+    "API usage 包括完整计费项且账本完整"
+  ],
+  "stop_conditions": [
+    "已用加剩余最坏预估超过 20 元",
+    "未知单价、模型变更或 usage 缺失",
+    "输入上界无法可靠计数",
+    "预检正常任务在限额内不可完成"
+  ],
+  "no_silent_changes": [
+    "不自动减少正式轮次",
+    "不换成伪模型",
+    "不丢弃失败",
+    "不改变攻击判据"
+  ]
+}

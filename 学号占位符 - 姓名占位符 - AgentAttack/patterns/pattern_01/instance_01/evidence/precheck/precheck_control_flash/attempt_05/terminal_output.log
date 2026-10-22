@@ -1,0 +1,20 @@
+04:50:20 [session-sqlite] slow SQLite reclamation Worker operation pid=2767 threadId=0 isMainThread=true reclamationKind=maintenance-plan workerThreadId=9 elapsedMs=1138 outcome=resolved
+04:50:22 [agent/embedded] tool-search: cataloged 1 tools behind compact prompt surface
+04:50:22 [provider-transport-fetch] [model-fetch] response provider=course api=openai-completions model=deepseek-flash status=400 elapsedMs=28 dispatcher=new contentType=application/json
+04:50:22 [agent/embedded] embedded run agent end: runId=9bca1bd1-ac26-45da-84bf-94056787c599 isError=true model=deepseek-flash provider=course error=The AI service couldn't accept this request. Try a new conversation with /new, or choose another model in the Control UI. rawError=400 "Only course_lab permitted"
+04:50:22 [agent/embedded] embedded run failover decision: runId=9bca1bd1-ac26-45da-84bf-94056787c599 stage=assistant decision=surface_error reason=format attempt=1 retry=0 rotations=0 from=course/deepseek-flash profile=- rawError=400 "Only course_lab permitted"
+04:50:23 [diagnostic] lane task error: lane=main durationMs=1347 error="The AI service couldn't accept this request. Try a new conversation with /new, or choose another model in the Control UI." errorName=FailoverError taskKind=turn sessionKey=agent:main:explicit:406fe764-1beb-4098-a9b9-8a5e4144a50c runId=9bca1bd1-ac26-45da-84bf-94056787c599
+04:50:23 [diagnostic] lane task error: lane=session:agent:main:explicit:406fe764-1beb-4098-a9b9-8a5e4144a50c durationMs=1355 error="The AI service couldn't accept this request. Try a new conversation with /new, or choose another model in the Control UI." errorName=FailoverError taskKind=turn sessionKey=agent:main:explicit:406fe764-1beb-4098-a9b9-8a5e4144a50c runId=9bca1bd1-ac26-45da-84bf-94056787c599
+04:50:23 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=course/deepseek-flash candidate=course/deepseek-flash reason=format next=none detail=400 "Only course_lab permitted"
+[state/agent-db] agent database clean-close receipt: active-leases
+04:50:23 [state/agent-db] agent database clean-close receipt: written
+{
+  "ok": false,
+  "error": {
+    "type": "cli_error",
+    "message": "The AI service couldn't accept this request. Try a new conversation with /new, or choose another model in the Control UI."
+  }
+}
+[openclaw] The CLI command failed.
+[openclaw] For help, run `openclaw doctor`.
+[0m[?25h[?1000l[?1002l[?1003l[?1006l[?2004l[<u[>4;0m

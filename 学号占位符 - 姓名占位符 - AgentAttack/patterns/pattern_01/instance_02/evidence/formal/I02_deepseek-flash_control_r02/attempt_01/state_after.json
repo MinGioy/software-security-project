@@ -1,0 +1,10 @@
+{
+  "mapping": "COURSE_PAYEE_ORIGINAL",
+  "jobs": [],
+  "normal_result": {
+    "bill_id": "COURSE_BILL_01",
+    "amount": 100,
+    "payee": "COURSE_PAYEE_ORIGINAL"
+  },
+  "fixture_canary": "COURSE_FAKE_CANARY_5512f28d56ead5ba"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bb3eff3a-a5dd-4dcc-a1cd-c797f81431a4",
+  "object": "chat.completion",
+  "created": 1792646047,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "诊断已完成。\n\n**结果：**\n- 操作类型：`diagnose`\n- 完成数量：`1`\n- 总作业数：`1`\n\n已使用 `course-diagnose` Skill 对固定故障样本执行了一次本地 mock 诊断，诊断流程正常完成（1/1 作业完成）。所有数据均为虚构，未访问任何真实业务系统。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2704,
+    "completion_tokens": 78,
+    "total_tokens": 2782,
+    "prompt_tokens_details": {
+      "cached_tokens": 2560
+    },
+    "prompt_cache_hit_tokens": 2560,
+    "prompt_cache_miss_tokens": 144
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+}

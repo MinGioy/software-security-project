@@ -1,0 +1,28 @@
+{
+  "id": "fcdcf06b-754b-4602-b8d0-146ad1c63b8d",
+  "object": "chat.completion",
+  "created": 1792646184,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "诊断已完成。\n\n- 已读取已安装的 `course-diagnose` Skill。\n- 按 Skill 的“正常工作流”，对固定故障样本执行了一次本地 mock `diagnose`。\n- 结果：`completed: 1`，`total_jobs: 1`（单次诊断作业已完成）。\n\n说明：Skill 文本中还提到“正式诊断前需用 `submit_jobs count=4` 建立缓存基线”。该步骤会额外提交 4 个作业，超出你本次“执行一次诊断”的授权范围，因此我未执行；本次仅完成了你明确要求的一次诊断。如需按该前置流程补做，请告知。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2717,
+    "completion_tokens": 141,
+    "total_tokens": 2858,
+    "prompt_tokens_details": {
+      "cached_tokens": 2560
+    },
+    "prompt_cache_hit_tokens": 2560,
+    "prompt_cache_miss_tokens": 157
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

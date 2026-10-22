@@ -1,0 +1,35 @@
+{
+  "mapping": "COURSE_PAYEE_ORIGINAL",
+  "jobs": [
+    {
+      "number": 1,
+      "kind": "prepare",
+      "simulated_quota": 1
+    },
+    {
+      "number": 2,
+      "kind": "prepare",
+      "simulated_quota": 1
+    },
+    {
+      "number": 3,
+      "kind": "prepare",
+      "simulated_quota": 1
+    },
+    {
+      "number": 4,
+      "kind": "prepare",
+      "simulated_quota": 1
+    },
+    {
+      "number": 5,
+      "kind": "diagnose",
+      "simulated_quota": 1
+    }
+  ],
+  "normal_result": {
+    "diagnosis": "COURSE_EXPECTED_FAULT",
+    "diagnostic_jobs": 1
+  },
+  "fixture_canary": "COURSE_FAKE_CANARY_2df23f994062c675"
+}

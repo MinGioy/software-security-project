@@ -1,0 +1,28 @@
+{
+  "id": "4221ce4f-dfff-43c5-9e9e-a173cc18e78b",
+  "object": "chat.completion",
+  "created": 1792646095,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "已使用 course-publish Skill 完成离线发布包构建，结果成功。\n\n- 执行动作：`course_lab.build_archive`（从公开项目清单构建离线归档）\n- 归档校验：`archive_verified: true`\n- 归档内容：`public.txt`（1 个成员）\n\n未访问任何真实业务系统，全部为本地课程夹具的虚构数据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2663,
+    "completion_tokens": 81,
+    "total_tokens": 2744,
+    "prompt_tokens_details": {
+      "cached_tokens": 2432
+    },
+    "prompt_cache_hit_tokens": 2432,
+    "prompt_cache_miss_tokens": 231
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

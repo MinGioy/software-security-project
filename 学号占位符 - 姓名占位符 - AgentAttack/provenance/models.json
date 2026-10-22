@@ -1,0 +1,21 @@
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "deepseek-flash",
+      "object": "model",
+      "owned_by": "deepseek"
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "object": "model",
+      "owned_by": "deepseek"
+    }
+  ],
+  "query": {
+    "url": "https://api.deepseek.com/models",
+    "timestamp": "2026-10-13T16:06:40.043718+08:00",
+    "http_status": 200
+  },
+  "interpretation": "该账户此时 /models 返回的模型 ID；不保证额度、chat/completions 授权或工具调用兼容性。"
+}

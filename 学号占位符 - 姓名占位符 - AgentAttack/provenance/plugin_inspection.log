@@ -1,0 +1,3576 @@
+{
+  "workspaceDir": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/workspace",
+  "workspaceScope": "selected",
+  "registry": {
+    "source": "derived",
+    "diagnostics": [
+      {
+        "level": "info",
+        "code": "persisted-registry-missing",
+        "message": "Persisted plugin registry is missing or invalid; using derived plugin index."
+      }
+    ]
+  },
+  "plugins": [
+    {
+      "id": "course-lab",
+      "name": "Course local lab",
+      "version": "1.0.0",
+      "description": "Instrumented localhost tools for fictional course fixtures",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/tools/course-lab/index.mjs",
+      "rootDir": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/tools/course-lab",
+      "origin": "config",
+      "trust": {
+        "reason": "record-missing",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "config"
+      },
+      "enabled": true,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "loaded",
+      "toolNames": [
+        "course_lab"
+      ],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "tools": [
+          "course_lab"
+        ]
+      },
+      "dependencyStatus": {
+        "hasDependencies": false,
+        "installed": true,
+        "requiredInstalled": true,
+        "optionalInstalled": true,
+        "missing": [],
+        "missingOptional": [],
+        "dependencies": [],
+        "optionalDependencies": []
+      }
+    },
+    {
+      "id": "a2a",
+      "name": "A2A",
+      "version": "2026.10.2",
+      "description": "A2A v1.0 Agent-to-Agent protocol channel plugin.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/a2a/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/a2a",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [
+        "a2a"
+      ],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "active-memory",
+      "name": "Active Memory",
+      "description": "Runs bounded pre-reply memory retrieval and implements per-agent Remember across conversations for eligible private conversations.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/active-memory/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/active-memory",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "admin-http-rpc",
+      "name": "@openclaw/admin-http-rpc",
+      "version": "2026.10.2",
+      "description": "OpenClaw admin HTTP RPC endpoint",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/admin-http-rpc/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/admin-http-rpc",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [
+        "activation-config-path-hint"
+      ],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "gatewayMethodDispatch": [
+          "authenticated-request"
+        ]
+      }
+    },
+    {
+      "id": "agentsapi",
+      "name": "OpenAI Agents API",
+      "version": "2026.10.2",
+      "description": "OpenAI Agents API harness with hosted or self-hosted sessions.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/agentsapi/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/agentsapi",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [
+        "activation-agent-harness-hint"
+      ],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "alibaba",
+      "name": "@openclaw/alibaba-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw Alibaba Model Studio video provider plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/alibaba/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/alibaba",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [
+        "alibaba"
+      ],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "videoGenerationProviders": [
+          "alibaba"
+        ]
+      }
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "version": "2026.10.2",
+      "description": "Anthropic models, Claude CLI, and native Claude session catalog.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/anthropic/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/anthropic",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [
+        "claude-cli"
+      ],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [
+        "claude-cli"
+      ],
+      "providerIds": [
+        "anthropic"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [
+        "anthropic"
+      ],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "mediaUnderstandingProviders": [
+          "anthropic"
+        ],
+        "usageProviders": [
+          "anthropic"
+        ]
+      }
+    },
+    {
+      "id": "apple-fm",
+      "name": "Apple Foundation Models",
+      "version": "2026.10.2",
+      "description": "On-device Apple Intelligence inference for lightweight setup and short tasks.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/apple-fm/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/apple-fm",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [
+        "apple-fm"
+      ],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "apple-fm"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "azure-speech",
+      "name": "Azure Speech",
+      "version": "2026.10.2",
+      "description": "Azure AI Speech text-to-speech (MP3, native Ogg/Opus voice notes, PCM telephony).",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/azure-speech/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/azure-speech",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [
+        "azure-speech",
+        "azure"
+      ],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "speechProviders": [
+          "azure-speech",
+          "azure"
+        ]
+      }
+    },
+    {
+      "id": "beam",
+      "name": "@openclaw/beam",
+      "version": "2026.10.2",
+      "description": "Read-only coding-session Beam receiver",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/beam/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/beam",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [
+        "activation-config-path-hint"
+      ],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "bonjour",
+      "name": "Bonjour Gateway Discovery",
+      "version": "2026.10.2",
+      "description": "Advertise the local OpenClaw gateway over Bonjour/mDNS.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/bonjour/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/bonjour",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "browser",
+      "name": "@openclaw/browser-plugin",
+      "version": "2026.10.2",
+      "description": "OpenClaw browser tool plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/browser/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/browser",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [
+        "activation-config-path-hint"
+      ],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [
+        "browser"
+      ],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [
+        "browser"
+      ],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "tools": [
+          "browser"
+        ]
+      }
+    },
+    {
+      "id": "canvas",
+      "name": "Canvas",
+      "version": "2026.10.2",
+      "description": "Presents hosted widget documents on paired macOS panels.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/canvas/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/canvas",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [
+        "canvas"
+      ],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "tools": [
+          "canvas"
+        ]
+      }
+    },
+    {
+      "id": "clawrouter",
+      "name": "@openclaw/clawrouter",
+      "version": "2026.10.2",
+      "description": "OpenClaw ClawRouter plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/clawrouter/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/clawrouter",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "clawrouter"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "usageProviders": [
+          "clawrouter"
+        ]
+      }
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "version": "2026.10.2",
+      "description": "Cloudflare R2 storage for named OpenClaw storage locations.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/cloudflare/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/cloudflare",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "storageProviders": [
+          "r2"
+        ]
+      }
+    },
+    {
+      "id": "code-mode-quickjs",
+      "name": "QuickJS Code Mode",
+      "version": "2026.10.2",
+      "description": "Hardened JavaScript execution for Code Mode using QuickJS in WebAssembly.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/code-mode-quickjs/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/code-mode-quickjs",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "codeModeExecutors": [
+          "quickjs"
+        ]
+      }
+    },
+    {
+      "id": "copilot-proxy",
+      "name": "@openclaw/copilot-proxy",
+      "version": "2026.10.2",
+      "description": "OpenClaw Copilot Proxy provider plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/copilot-proxy/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/copilot-proxy",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "copilot-proxy"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "crabbox",
+      "name": "Crabbox Worker Provider",
+      "version": "2026.10.2",
+      "description": "Cloud worker provider and lease-backed sandbox backend for the Crabbox CLI.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/crabbox/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/crabbox",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [
+        "activation-command-hint",
+        "activation-config-path-hint"
+      ],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [
+        "crabbox"
+      ],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [
+        "crabbox"
+      ],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "workerProviders": [
+          "crabbox"
+        ],
+        "tools": [
+          "crabbox"
+        ]
+      }
+    },
+    {
+      "id": "cua-computer",
+      "name": "CUA Computer",
+      "version": "2026.10.2",
+      "description": "Experimental CUA Driver computer control for macOS, Windows, and Linux node hosts.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/cua-computer/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/cua-computer",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "deepgram",
+      "name": "@openclaw/deepgram-provider",
+      "version": "2026.10.2",
+      "description": "Deepgram audio transcription with Nova and Flux models, plus realtime speech recognition.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/deepgram/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/deepgram",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [
+        "deepgram"
+      ],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [
+        "deepgram"
+      ],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "realtimeTranscriptionProviders": [
+          "deepgram"
+        ],
+        "mediaUnderstandingProviders": [
+          "deepgram"
+        ]
+      }
+    },
+    {
+      "id": "device-pair",
+      "name": "Device Pairing",
+      "description": "Generate setup codes and approve device pairing requests.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/device-pair/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/device-pair",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [
+        "pair"
+      ],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "document-extract",
+      "name": "Document Extraction",
+      "version": "2026.10.2",
+      "description": "Extract text and fallback page images from local document attachments.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/document-extract/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/document-extract",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "documentExtractors": [
+          "pdf"
+        ]
+      }
+    },
+    {
+      "id": "elevenlabs",
+      "name": "@openclaw/elevenlabs-speech",
+      "version": "2026.10.2",
+      "description": "OpenClaw ElevenLabs speech plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/elevenlabs/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/elevenlabs",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [
+        "elevenlabs"
+      ],
+      "realtimeTranscriptionProviderIds": [
+        "elevenlabs"
+      ],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [
+        "elevenlabs"
+      ],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "speechProviders": [
+          "elevenlabs"
+        ],
+        "realtimeTranscriptionProviders": [
+          "elevenlabs"
+        ],
+        "mediaUnderstandingProviders": [
+          "elevenlabs"
+        ]
+      }
+    },
+    {
+      "id": "fal",
+      "name": "@openclaw/fal-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw fal provider plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/fal/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/fal",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "fal"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [
+        "fal"
+      ],
+      "videoGenerationProviderIds": [
+        "fal"
+      ],
+      "musicGenerationProviderIds": [
+        "fal"
+      ],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "imageGenerationProviders": [
+          "fal"
+        ],
+        "videoGenerationProviders": [
+          "fal"
+        ],
+        "musicGenerationProviders": [
+          "fal"
+        ]
+      }
+    },
+    {
+      "id": "file-transfer",
+      "name": "File Transfer",
+      "version": "2026.10.2",
+      "description": "Fetch, list, and write files on paired nodes via dedicated node commands. Bypasses bash stdout truncation by using base64 over node.invoke for binaries up to 16 MB.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/file-transfer/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/file-transfer",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [
+        "file_fetch",
+        "dir_list",
+        "dir_fetch",
+        "file_write"
+      ],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "tools": [
+          "file_fetch",
+          "dir_list",
+          "dir_fetch",
+          "file_write"
+        ]
+      }
+    },
+    {
+      "id": "geolocation",
+      "name": "Geolocation",
+      "version": "2026.10.2",
+      "description": "Resolves client IP addresses to a coarse city using a locally cached IP-geolocation database.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/geolocation/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/geolocation",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "version": "2026.10.2",
+      "description": "Public GitHub link previews and document reader.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/github/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/github",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "gatewayMethodDispatch": [
+          "authenticated-request"
+        ]
+      }
+    },
+    {
+      "id": "github-copilot",
+      "name": "@openclaw/github-copilot-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw GitHub Copilot provider plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/github-copilot/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/github-copilot",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "github-copilot"
+      ],
+      "embeddingProviderIds": [
+        "github-copilot"
+      ],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "embeddingProviders": [
+          "github-copilot"
+        ],
+        "usageProviders": [
+          "github-copilot"
+        ]
+      }
+    },
+    {
+      "id": "google",
+      "name": "@openclaw/google-plugin",
+      "version": "2026.10.2",
+      "description": "OpenClaw Google plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/google/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/google",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [
+        "google-gemini-cli"
+      ],
+      "providerIds": [
+        "google",
+        "google-gemini-cli",
+        "google-vertex"
+      ],
+      "embeddingProviderIds": [
+        "gemini"
+      ],
+      "speechProviderIds": [
+        "google"
+      ],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [
+        "google"
+      ],
+      "mediaUnderstandingProviderIds": [
+        "google"
+      ],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [
+        "google"
+      ],
+      "videoGenerationProviderIds": [
+        "google"
+      ],
+      "musicGenerationProviderIds": [
+        "google"
+      ],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [
+        "gemini"
+      ],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "embeddingProviders": [
+          "gemini"
+        ],
+        "speechProviders": [
+          "google"
+        ],
+        "realtimeVoiceProviders": [
+          "google"
+        ],
+        "mediaUnderstandingProviders": [
+          "google"
+        ],
+        "imageGenerationProviders": [
+          "google"
+        ],
+        "videoGenerationProviders": [
+          "google"
+        ],
+        "musicGenerationProviders": [
+          "google"
+        ],
+        "webSearchProviders": [
+          "gemini"
+        ]
+      }
+    },
+    {
+      "id": "huggingface",
+      "name": "@openclaw/huggingface-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw Hugging Face provider plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/huggingface/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/huggingface",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "huggingface"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "imap",
+      "name": "IMAP email trigger",
+      "version": "2026.10.2",
+      "description": "Watch IMAP mailboxes and dispatch authenticated incoming email to isolated agent sessions.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/imap/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/imap",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "kie",
+      "name": "@openclaw/kie-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw Kie AI video provider plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/kie/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/kie",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "kie"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [
+        "kie"
+      ],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "videoGenerationProviders": [
+          "kie"
+        ]
+      }
+    },
+    {
+      "id": "linux-node",
+      "name": "Linux Node",
+      "version": "2026.10.2",
+      "description": "Desktop notifications, camera capture, and location for Linux node hosts.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/linux-node/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/linux-node",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "litellm",
+      "name": "@openclaw/litellm-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw LiteLLM provider plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/litellm/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/litellm",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "litellm"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [
+        "litellm"
+      ],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "imageGenerationProviders": [
+          "litellm"
+        ]
+      }
+    },
+    {
+      "id": "llm-task",
+      "name": "LLM Task",
+      "version": "2026.10.2",
+      "description": "Generic JSON-only LLM tool for structured tasks callable from workflows.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/llm-task/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/llm-task",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [
+        "llm-task"
+      ],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "tools": [
+          "llm-task"
+        ]
+      }
+    },
+    {
+      "id": "lmstudio",
+      "name": "@openclaw/lmstudio-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw LM Studio provider plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/lmstudio/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/lmstudio",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [
+        "lmstudio"
+      ],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "lmstudio"
+      ],
+      "embeddingProviderIds": [
+        "lmstudio"
+      ],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "embeddingProviders": [
+          "lmstudio"
+        ]
+      }
+    },
+    {
+      "id": "logbook",
+      "name": "Logbook",
+      "version": "2026.10.2",
+      "description": "Automatic work journal: captures periodic screen snapshots from a paired node and turns them into a reviewable timeline of your day.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/logbook/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/logbook",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "memory-core",
+      "name": "OpenClaw Memory",
+      "version": "2026.10.2",
+      "description": "OpenClaw core memory search plugin",
+      "format": "openclaw",
+      "kind": "memory",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/memory-core/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/memory-core",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [
+        "intent",
+        "memory_get",
+        "memory_search"
+      ],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [
+        "dreaming"
+      ],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "tools": [
+          "intent",
+          "memory_get",
+          "memory_search"
+        ]
+      }
+    },
+    {
+      "id": "memory-wiki",
+      "name": "Memory Wiki",
+      "version": "2026.10.2",
+      "description": "Persistent wiki compiler and Obsidian-friendly knowledge vault for OpenClaw.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/memory-wiki/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/memory-wiki",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [
+        "wiki_apply",
+        "wiki_get",
+        "wiki_lint",
+        "wiki_search",
+        "wiki_status"
+      ],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [
+        "wiki"
+      ],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "tools": [
+          "wiki_apply",
+          "wiki_get",
+          "wiki_lint",
+          "wiki_search",
+          "wiki_status"
+        ]
+      }
+    },
+    {
+      "id": "microsoft",
+      "name": "@openclaw/microsoft-speech",
+      "version": "2026.10.2",
+      "description": "OpenClaw Microsoft speech plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/microsoft/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/microsoft",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [
+        "microsoft",
+        "edge"
+      ],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "speechProviders": [
+          "microsoft",
+          "edge"
+        ]
+      }
+    },
+    {
+      "id": "microsoft-foundry",
+      "name": "@openclaw/microsoft-foundry",
+      "version": "2026.10.2",
+      "description": "OpenClaw Microsoft Foundry provider plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/microsoft-foundry/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/microsoft-foundry",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "microsoft-foundry"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [
+        "microsoft-foundry"
+      ],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "imageGenerationProviders": [
+          "microsoft-foundry"
+        ]
+      }
+    },
+    {
+      "id": "migrate-claude",
+      "name": "Claude Migration",
+      "version": "2026.10.2",
+      "description": "Imports Claude Code and Claude Desktop instructions, MCP servers, skills, and safe configuration into OpenClaw.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/migrate-claude/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/migrate-claude",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [
+        "claude"
+      ],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "migrationProviders": [
+          "claude"
+        ]
+      }
+    },
+    {
+      "id": "migrate-hermes",
+      "name": "Hermes Migration",
+      "version": "2026.10.2",
+      "description": "Imports Hermes configuration, memories, skills, and supported credentials into OpenClaw.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/migrate-hermes/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/migrate-hermes",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [
+        "hermes"
+      ],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "migrationProviders": [
+          "hermes"
+        ]
+      }
+    },
+    {
+      "id": "minimax",
+      "name": "@openclaw/minimax-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw MiniMax provider and OAuth plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/minimax/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/minimax",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "minimax",
+        "minimax-portal"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [
+        "minimax"
+      ],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [
+        "minimax",
+        "minimax-portal"
+      ],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [
+        "minimax",
+        "minimax-portal"
+      ],
+      "videoGenerationProviderIds": [
+        "minimax",
+        "minimax-portal"
+      ],
+      "musicGenerationProviderIds": [
+        "minimax",
+        "minimax-portal"
+      ],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [
+        "minimax"
+      ],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "speechProviders": [
+          "minimax"
+        ],
+        "mediaUnderstandingProviders": [
+          "minimax",
+          "minimax-portal"
+        ],
+        "imageGenerationProviders": [
+          "minimax",
+          "minimax-portal"
+        ],
+        "videoGenerationProviders": [
+          "minimax",
+          "minimax-portal"
+        ],
+        "musicGenerationProviders": [
+          "minimax",
+          "minimax-portal"
+        ],
+        "webSearchProviders": [
+          "minimax"
+        ],
+        "usageProviders": [
+          "minimax"
+        ]
+      }
+    },
+    {
+      "id": "nvidia",
+      "name": "@openclaw/nvidia-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw NVIDIA provider plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/nvidia/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/nvidia",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "nvidia"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "oc-path",
+      "name": "OC Path",
+      "version": "2026.10.2",
+      "description": "Adds the openclaw path CLI for oc:// workspace file addressing.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/oc-path/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/oc-path",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [
+        "activation-command-hint"
+      ],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [
+        "path"
+      ],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "ollama",
+      "name": "@openclaw/ollama-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw Ollama provider plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/ollama/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/ollama",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [
+        "ollama"
+      ],
+      "status": "disabled",
+      "toolNames": [
+        "node_inference"
+      ],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "ollama",
+        "ollama-cloud"
+      ],
+      "embeddingProviderIds": [
+        "ollama"
+      ],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [
+        "ollama"
+      ],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "embeddingProviders": [
+          "ollama"
+        ],
+        "webSearchProviders": [
+          "ollama"
+        ],
+        "tools": [
+          "node_inference"
+        ]
+      }
+    },
+    {
+      "id": "onepassword",
+      "name": "1Password",
+      "version": "2026.10.2",
+      "description": "1Password SecretRef resolver and curated agent broker with approval policy and SQLite audit history.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/onepassword/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/onepassword",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [
+        "activation-command-hint",
+        "activation-config-path-hint"
+      ],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [
+        "onepassword"
+      ],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [
+        "onepassword"
+      ],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "tools": [
+          "onepassword"
+        ]
+      }
+    },
+    {
+      "id": "openai",
+      "name": "@openclaw/openai-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw OpenAI provider plugins",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/openai/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/openai",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "openai"
+      ],
+      "embeddingProviderIds": [
+        "openai"
+      ],
+      "speechProviderIds": [
+        "openai"
+      ],
+      "realtimeTranscriptionProviderIds": [
+        "openai"
+      ],
+      "realtimeVoiceProviderIds": [
+        "openai"
+      ],
+      "mediaUnderstandingProviderIds": [
+        "openai"
+      ],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [
+        "openai"
+      ],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "embeddingProviders": [
+          "openai"
+        ],
+        "speechProviders": [
+          "openai"
+        ],
+        "realtimeTranscriptionProviders": [
+          "openai"
+        ],
+        "realtimeVoiceProviders": [
+          "openai"
+        ],
+        "mediaUnderstandingProviders": [
+          "openai"
+        ],
+        "imageGenerationProviders": [
+          "openai"
+        ],
+        "usageProviders": [
+          "openai"
+        ]
+      }
+    },
+    {
+      "id": "opencode-go",
+      "name": "@openclaw/opencode-go-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw OpenCode Go provider plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/opencode-go/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/opencode-go",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "opencode-go"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [
+        "opencode-go"
+      ],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "mediaUnderstandingProviders": [
+          "opencode-go"
+        ]
+      }
+    },
+    {
+      "id": "openrouter",
+      "name": "@openclaw/openrouter-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw OpenRouter provider plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/openrouter/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/openrouter",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "openrouter"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [
+        "openrouter"
+      ],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [
+        "openrouter"
+      ],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [
+        "openrouter"
+      ],
+      "videoGenerationProviderIds": [
+        "openrouter"
+      ],
+      "musicGenerationProviderIds": [
+        "openrouter"
+      ],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "speechProviders": [
+          "openrouter"
+        ],
+        "mediaUnderstandingProviders": [
+          "openrouter"
+        ],
+        "imageGenerationProviders": [
+          "openrouter"
+        ],
+        "videoGenerationProviders": [
+          "openrouter"
+        ],
+        "musicGenerationProviders": [
+          "openrouter"
+        ],
+        "usageProviders": [
+          "openrouter"
+        ]
+      }
+    },
+    {
+      "id": "policy",
+      "name": "Policy",
+      "version": "2026.10.2",
+      "description": "Adds policy-backed doctor checks for workspace conformance.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/policy/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/policy",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [
+        "activation-command-hint"
+      ],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [
+        "policy"
+      ],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "reef",
+      "name": "Reef",
+      "version": "2026.10.2",
+      "description": "Guarded end-to-end encrypted claw channel",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/reef/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/reef",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [
+        "activation-command-hint"
+      ],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [
+        "reef"
+      ],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [
+        "reef"
+      ],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "runway",
+      "name": "@openclaw/runway-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw Runway video provider plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/runway/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/runway",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [
+        "runway"
+      ],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "videoGenerationProviders": [
+          "runway"
+        ]
+      }
+    },
+    {
+      "id": "senseaudio",
+      "name": "@openclaw/senseaudio-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw SenseAudio media-understanding provider",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/senseaudio/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/senseaudio",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [
+        "senseaudio"
+      ],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "mediaUnderstandingProviders": [
+          "senseaudio"
+        ]
+      }
+    },
+    {
+      "id": "session-share",
+      "name": "@openclaw/session-share",
+      "version": "2026.10.2",
+      "description": "Read-only OpenClaw sessions on paired gateways",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/session-share/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/session-share",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [
+        "activation-config-path-hint"
+      ],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "sglang",
+      "name": "@openclaw/sglang-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw SGLang provider plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/sglang/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/sglang",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "sglang"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "talk-voice",
+      "name": "Talk Voice",
+      "description": "Manage Talk voice selection (list/set).",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/talk-voice/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/talk-voice",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [
+        "talk_voice"
+      ],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [
+        "voice"
+      ],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "tools": [
+          "talk_voice"
+        ]
+      }
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "version": "2026.10.2",
+      "description": "OpenClaw Telegram channel plugin.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/telegram/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/telegram",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [
+        "telegram"
+      ],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "together",
+      "name": "@openclaw/together-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw Together provider plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/together/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/together",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "together"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [
+        "together"
+      ],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "videoGenerationProviders": [
+          "together"
+        ]
+      }
+    },
+    {
+      "id": "tts-local-cli",
+      "name": "@openclaw/tts-local-cli",
+      "version": "2026.10.2",
+      "description": "OpenClaw local CLI TTS plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/tts-local-cli/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/tts-local-cli",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [
+        "tts-local-cli",
+        "cli"
+      ],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "speechProviders": [
+          "tts-local-cli",
+          "cli"
+        ]
+      }
+    },
+    {
+      "id": "vault",
+      "name": "Vault",
+      "version": "2026.10.2",
+      "description": "HashiCorp Vault SecretRef provider integration.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/vault/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/vault",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [
+        "activation-command-hint"
+      ],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [
+        "vault"
+      ],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "vllm",
+      "name": "@openclaw/vllm-provider",
+      "version": "2026.10.2",
+      "description": "OpenClaw vLLM provider plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/vllm/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/vllm",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "vllm"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true
+    },
+    {
+      "id": "web-readability",
+      "name": "Web Readability Extraction",
+      "version": "2026.10.2",
+      "description": "Extract readable article content from local HTML web fetch responses.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/web-readability/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/web-readability",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "webContentExtractors": [
+          "readability"
+        ]
+      }
+    },
+    {
+      "id": "workboard",
+      "name": "Workboard",
+      "version": "2026.10.2",
+      "description": "Dashboard workboard for agent-owned issues and sessions.",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/workboard/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/workboard",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [
+        "activation-command-hint"
+      ],
+      "syntheticAuthRefs": [],
+      "status": "disabled",
+      "toolNames": [
+        "workboard_list",
+        "workboard_create",
+        "workboard_link",
+        "workboard_read",
+        "workboard_claim",
+        "workboard_heartbeat",
+        "workboard_complete",
+        "workboard_attachment_add",
+        "workboard_attachment_read",
+        "workboard_attachment_delete",
+        "workboard_block",
+        "workboard_boards",
+        "workboard_board_create",
+        "workboard_board_archive",
+        "workboard_board_delete",
+        "workboard_sessions_board_read",
+        "workboard_sessions_board_update",
+        "workboard_sessions_board_move",
+        "workboard_stats",
+        "workboard_runs",
+        "workboard_specify",
+        "workboard_decompose",
+        "workboard_notify_subscribe",
+        "workboard_notify_list",
+        "workboard_notify_events",
+        "workboard_notify_advance",
+        "workboard_notify_unsubscribe",
+        "workboard_promote",
+        "workboard_reassign",
+        "workboard_reclaim",
+        "workboard_dispatch",
+        "workboard_release",
+        "workboard_comment",
+        "workboard_proof",
+        "workboard_worker_log",
+        "workboard_protocol_violation",
+        "workboard_unblock",
+        "workboard_move"
+      ],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [
+        "workboard"
+      ],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "tools": [
+          "workboard_list",
+          "workboard_create",
+          "workboard_link",
+          "workboard_read",
+          "workboard_claim",
+          "workboard_heartbeat",
+          "workboard_complete",
+          "workboard_attachment_add",
+          "workboard_attachment_read",
+          "workboard_attachment_delete",
+          "workboard_block",
+          "workboard_boards",
+          "workboard_board_create",
+          "workboard_board_archive",
+          "workboard_board_delete",
+          "workboard_sessions_board_read",
+          "workboard_sessions_board_update",
+          "workboard_sessions_board_move",
+          "workboard_stats",
+          "workboard_runs",
+          "workboard_specify",
+          "workboard_decompose",
+          "workboard_notify_subscribe",
+          "workboard_notify_list",
+          "workboard_notify_events",
+          "workboard_notify_advance",
+          "workboard_notify_unsubscribe",
+          "workboard_promote",
+          "workboard_reassign",
+          "workboard_reclaim",
+          "workboard_dispatch",
+          "workboard_release",
+          "workboard_comment",
+          "workboard_proof",
+          "workboard_worker_log",
+          "workboard_protocol_violation",
+          "workboard_unblock",
+          "workboard_move"
+        ]
+      }
+    },
+    {
+      "id": "xai",
+      "name": "@openclaw/xai-plugin",
+      "version": "2026.10.2",
+      "description": "OpenClaw xAI plugin",
+      "format": "openclaw",
+      "source": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/xai/index.js",
+      "rootDir": "/workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/extensions/xai",
+      "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
+      "enabled": false,
+      "compat": [],
+      "syntheticAuthRefs": [
+        "xai"
+      ],
+      "status": "disabled",
+      "toolNames": [
+        "code_execution",
+        "x_search"
+      ],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "xai"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [
+        "xai"
+      ],
+      "realtimeTranscriptionProviderIds": [
+        "xai"
+      ],
+      "realtimeVoiceProviderIds": [
+        "xai",
+        "grok-voice",
+        "xai-realtime-voice"
+      ],
+      "mediaUnderstandingProviderIds": [
+        "xai"
+      ],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [
+        "xai"
+      ],
+      "videoGenerationProviderIds": [
+        "xai"
+      ],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [
+        "grok"
+      ],
+      "migrationProviderIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": true,
+      "contracts": {
+        "speechProviders": [
+          "xai"
+        ],
+        "realtimeTranscriptionProviders": [
+          "xai"
+        ],
+        "realtimeVoiceProviders": [
+          "xai",
+          "grok-voice",
+          "xai-realtime-voice"
+        ],
+        "mediaUnderstandingProviders": [
+          "xai"
+        ],
+        "imageGenerationProviders": [
+          "xai"
+        ],
+        "videoGenerationProviders": [
+          "xai"
+        ],
+        "webSearchProviders": [
+          "grok"
+        ],
+        "usageProviders": [
+          "xai"
+        ],
+        "tools": [
+          "code_execution",
+          "x_search"
+        ]
+      }
+    }
+  ],
+  "diagnostics": []
+}

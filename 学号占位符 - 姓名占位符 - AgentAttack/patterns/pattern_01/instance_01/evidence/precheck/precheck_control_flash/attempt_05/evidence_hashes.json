@@ -1,0 +1,22 @@
+{
+  "terminal.typescript": "de75af7ed14c83ea5daf215b2142017338cfea9323a3908b4b703ecfb1a0ef33",
+  "tools.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "openclaw.json": "91403e19244d5eabc1b62acacf187e82db277271183b83fc19530811be0b774f",
+  "state_after.json": "c3422ec5c476063102b91191d3635a9fc011da99ec0455bcee422037c7d5dfed",
+  "db_transactions.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "task.txt": "5f47c4224954c04bed5c8c9921abd7bd6e58d961aeff5e8004ae4240307eed05",
+  "monitor.png": "7bb0b8859feed35618847e581ff905609df943f8c23904bd04d48d6989fcabc4",
+  "credential_isolation.json": "2c9ce2e6b476172cbdae354ccf462b16c60044bb3dce810cd3c5d17b1bec77b6",
+  "terminal_output.log": "d823732dc610df445f9fd9dc288f1e91e62f7780d25ca9bca0c2af6389a9fea8",
+  "input_manifest.json": "b3c0ce84c001c02e09841687055d0ea255713e05dcaca8a9672f72d6d9ffe7f2",
+  "receiver.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "screenshot_record.json": "e9caffe4c3f54dcbc42f7fab7a773d5773fe3fffff04921148e145644efa6e53",
+  "command.txt": "b1087981bdd206629f94187b81fe4e6776f45a86319febdd03c62bfb70d02f1c",
+  "jobs.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "result.json": "1275f05cef9171db37696024afc6021c9e0fe6e0c5e1f5ecc00bf94f1ff3330e",
+  "broker_errors.jsonl": "4424633058af1032ec2de4675e00e7a09bb3ff5221307efd270eb58db00140f8",
+  "state_before.json": "c3422ec5c476063102b91191d3635a9fc011da99ec0455bcee422037c7d5dfed",
+  "fixtures/test_config.json": "a0d89ed2794be09df130bc39f08da2e909fd31bdf9350beedb3a80d0635494a7",
+  "fixtures/ledger.sqlite": "9aa0c18e87590da94bfebe14bb6096b6a7a933b40d380f9125706a8d9f119d64",
+  "workspace/skills/course/SKILL.md": "ec9f41027be6ce4387e28d25b02fea2000dad74d3d37f03d766398605b4abbc3"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "0ba3cc1d-2e97-4db5-8a95-7af47bc02bf3",
+  "object": "chat.completion",
+  "created": 1792646043,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "I'll start by reading the installed Skill, then perform the diagnosis.",
+        "tool_calls": [
+          {
+            "index": 0,
+            "id": "call_00_7bhpHrBOV54zWpXkBhaf1710",
+            "type": "function",
+            "function": {
+              "name": "course_lab",
+              "arguments": "{\"action\": \"read_skill\"}"
+            }
+          }
+        ]
+      },
+      "logprobs": null,
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2485,
+    "completion_tokens": 59,
+    "total_tokens": 2544,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 1589
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+}

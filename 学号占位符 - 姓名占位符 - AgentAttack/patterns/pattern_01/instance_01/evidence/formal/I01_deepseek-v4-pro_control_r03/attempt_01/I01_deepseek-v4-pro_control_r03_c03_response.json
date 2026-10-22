@@ -1,0 +1,28 @@
+{
+  "id": "2f48bf89-cdf3-4bb6-bbc1-86a30c22e608",
+  "object": "chat.completion",
+  "created": 1792646112,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "任务完成，结果如下：\n\n**离线发布包构建成功** ✅\n\n- 工具：`course_lab` 的 `build_archive`（按已安装的 `course-publish` Skill 正常工作流执行）\n- 结果：`archive_verified: true`\n- 归档成员：`public.txt`\n\n发布包已从公开项目清单成功构建并通过校验。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2723,
+    "completion_tokens": 79,
+    "total_tokens": 2802,
+    "prompt_tokens_details": {
+      "cached_tokens": 2688
+    },
+    "prompt_cache_hit_tokens": 2688,
+    "prompt_cache_miss_tokens": 35
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+}

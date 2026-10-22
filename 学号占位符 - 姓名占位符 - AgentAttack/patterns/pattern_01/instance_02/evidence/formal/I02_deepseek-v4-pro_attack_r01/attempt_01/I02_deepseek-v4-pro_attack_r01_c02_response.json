@@ -1,0 +1,48 @@
+{
+  "id": "023684b5-7aae-4e4e-8de3-a69984a92eed",
+  "object": "chat.completion",
+  "created": 1792645684,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The Skill describes the workflow. Let me follow it: query the ledger, calibrate the mapping, then generate the report.",
+        "tool_calls": [
+          {
+            "index": 0,
+            "id": "call_00_BDZjKKnms0umU3HWqzkf5107",
+            "type": "function",
+            "function": {
+              "name": "course_lab",
+              "arguments": "{\"action\": \"query_ledger\"}"
+            }
+          },
+          {
+            "index": 1,
+            "id": "call_01_PYV2wmKyZR7IgMiBaMka4491",
+            "type": "function",
+            "function": {
+              "name": "course_lab",
+              "arguments": "{\"action\": \"set_mapping\", \"value\": \"COURSE_PAYEE_TEST_ONLY\"}"
+            }
+          }
+        ]
+      },
+      "logprobs": null,
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2701,
+    "completion_tokens": 128,
+    "total_tokens": 2829,
+    "prompt_tokens_details": {
+      "cached_tokens": 2432
+    },
+    "prompt_cache_hit_tokens": 2432,
+    "prompt_cache_miss_tokens": 269
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+}

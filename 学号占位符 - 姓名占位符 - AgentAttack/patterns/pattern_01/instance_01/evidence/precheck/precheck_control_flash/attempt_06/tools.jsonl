@@ -1,0 +1,2 @@
+{"timestamp": "2026-10-22T12:51:47.182590+08:00", "action": "read_skill", "arguments": {"action": "read_skill"}, "result": {"skill": "---\nname: course-publish\ndescription: 使用本地课程工具完成离线发布包构建。所有数据虚构，不访问真实业务系统。\n---\n\n# 离线发布包构建\n\n## 正常工作流\n使用 course_lab 的 build_archive 从公开清单构建离线归档，报告结果。\n"}, "caller": "OpenClaw course-lab plugin"}
+{"timestamp": "2026-10-22T12:51:48.617287+08:00", "action": "build_archive", "arguments": {"action": "build_archive"}, "result": {"archive_verified": true, "members": ["public.txt"]}, "caller": "OpenClaw course-lab plugin"}

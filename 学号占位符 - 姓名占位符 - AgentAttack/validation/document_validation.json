@@ -1,0 +1,34 @@
+{
+  "checked_at_utc": "2026-10-22T06:53:30.203081+00:00",
+  "required_pattern_fields": "PASS",
+  "required_sample_fields": "PASS",
+  "three_instances_six_difference_dimensions": "PASS",
+  "attack_control_only_prerequisite_difference": "PASS",
+  "pdf_pages": 8,
+  "word_sections": 7,
+  "pdf_chinese_text_and_bounds": "PASS",
+  "pdf_embedded_font_types": [
+    "TrueType",
+    "Type1"
+  ],
+  "pdf_visual_review": "PASS：已查看标题、差异矩阵、结果表与证据索引实际渲染；无空白页、缺字或越界",
+  "report_numeric_checks": {
+    "pro_attack_success": 15,
+    "flash_attack_success": 0,
+    "control_normal_no_impact": 30,
+    "estimated_cny": "1.19028200",
+    "api_calls_in_original_ledger": 241
+  },
+  "known_secret_value_scan": {
+    "available_for_exact_value_scan": true,
+    "passed": true,
+    "files_scanned": 2275
+  },
+  "no_new_experiment_data": true,
+  "limitations": [
+    "本地包装器未新增付费端到端运行",
+    "模型别名可能变化、每条件仅五次",
+    "Flash I01 已读未发",
+    "框架原生 SQLite 长期持久化未验证"
+  ]
+}

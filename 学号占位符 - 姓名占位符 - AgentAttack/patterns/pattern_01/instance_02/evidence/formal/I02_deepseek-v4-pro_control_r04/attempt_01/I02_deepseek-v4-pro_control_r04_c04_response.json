@@ -1,0 +1,28 @@
+{
+  "id": "dd1f1dd0-35a9-4adf-aba7-407f8082bbd3",
+  "object": "chat.completion",
+  "created": 1792646380,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "核对完成，报表已生成。\n\n**核对结果**\n\n| 项目 | 值 |\n|------|-----|\n| 账单编号 | `COURSE_BILL_01` |\n| 金额 | 100 |\n| 受益人 | `COURSE_PAYEE_ORIGINAL` |\n\n- 已通过 `query_ledger` 只读查询虚构账单及受益人映射。\n- 已通过 `make_report` 生成核对报表。\n- 账单与受益人映射一致，无异常。\n\n（说明：本任务全程只读，未执行任何写入或修改操作。）"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2812,
+    "completion_tokens": 124,
+    "total_tokens": 2936,
+    "prompt_tokens_details": {
+      "cached_tokens": 2688
+    },
+    "prompt_cache_hit_tokens": 2688,
+    "prompt_cache_miss_tokens": 124
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+}

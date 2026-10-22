@@ -1,0 +1,281 @@
+[
+  {
+    "run_id": "I01_deepseek-flash_control_r01",
+    "phase": "formal",
+    "message_lines": [
+      "05:07:15 [session-sqlite] SQLite reclamation Worker failed pid=5337 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=155 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I02_deepseek-v4-pro_control_r01",
+    "phase": "formal",
+    "message_lines": [
+      "05:08:45 [session-sqlite] SQLite reclamation Worker failed pid=5933 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=126 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I03_deepseek-flash_control_r01",
+    "phase": "formal",
+    "message_lines": [
+      "05:09:01 [session-sqlite] SQLite reclamation Worker failed pid=6105 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=132 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I01_deepseek-v4-pro_attack_r01",
+    "phase": "formal",
+    "message_lines": [
+      "05:09:21 [session-sqlite] SQLite reclamation Worker failed pid=6216 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=129 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I03_deepseek-flash_attack_r01",
+    "phase": "formal",
+    "message_lines": [
+      "05:09:36 [session-sqlite] SQLite reclamation Worker failed pid=6339 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=108 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I03_deepseek-v4-pro_control_r01",
+    "phase": "formal",
+    "message_lines": [
+      "05:09:52 [session-sqlite] SQLite reclamation Worker failed pid=6452 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=155 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I03_deepseek-v4-pro_attack_r02",
+    "phase": "formal",
+    "message_lines": [
+      "05:10:29 [session-sqlite] SQLite reclamation Worker failed pid=6679 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=114 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I02_deepseek-flash_control_r02",
+    "phase": "formal",
+    "message_lines": [
+      "05:11:22 [session-sqlite] SQLite reclamation Worker failed pid=7070 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=134 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I01_deepseek-flash_attack_r02",
+    "phase": "formal",
+    "message_lines": [
+      "05:12:13 [session-sqlite] SQLite reclamation Worker failed pid=7454 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=132 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I03_deepseek-flash_control_r02",
+    "phase": "formal",
+    "message_lines": [
+      "05:12:28 [session-sqlite] SQLite reclamation Worker failed pid=7568 threadId=0 isMainThread=true reclamationKind=maintenance-plan elapsedMs=140 outcome=rejected error=\"Session mutation and executor cleanup failed | Agent database execution admission is closed\" errorFrame=\"at createSqliteLifecycleAggregateError (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/sqlite-lifecycle-errors-DuOygjcn.mjs:28:9)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I02_deepseek-v4-pro_control_r02",
+    "phase": "formal",
+    "message_lines": [
+      "05:12:45 [session-sqlite] SQLite reclamation Worker failed pid=7683 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=146 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I03_deepseek-flash_control_r03",
+    "phase": "formal",
+    "message_lines": [
+      "05:13:51 [session-sqlite] SQLite reclamation Worker failed pid=8233 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=145 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I03_deepseek-v4-pro_control_r03",
+    "phase": "formal",
+    "message_lines": [
+      "05:14:09 [session-sqlite] SQLite reclamation Worker failed pid=8344 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=124 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I01_deepseek-v4-pro_control_r03",
+    "phase": "formal",
+    "message_lines": [
+      "05:15:14 [session-sqlite] SQLite reclamation Worker failed pid=8837 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=139 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I02_deepseek-flash_attack_r03",
+    "phase": "formal",
+    "message_lines": [
+      "05:15:31 [session-sqlite] SQLite reclamation Worker failed pid=8952 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=124 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I01_deepseek-v4-pro_attack_r03",
+    "phase": "formal",
+    "message_lines": [
+      "05:16:45 [session-sqlite] SQLite reclamation Worker failed pid=9455 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=147 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I03_deepseek-v4-pro_attack_r04",
+    "phase": "formal",
+    "message_lines": [
+      "05:17:20 [session-sqlite] SQLite reclamation Worker failed pid=9733 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=108 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I02_deepseek-v4-pro_attack_r04",
+    "phase": "formal",
+    "message_lines": [
+      "05:17:40 [session-sqlite] SQLite reclamation Worker failed pid=9854 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=119 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I02_deepseek-flash_control_r04",
+    "phase": "formal",
+    "message_lines": [
+      "05:18:13 [session-sqlite] SQLite reclamation Worker failed pid=10121 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=129 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I03_deepseek-v4-pro_control_r04",
+    "phase": "formal",
+    "message_lines": [
+      "05:18:29 [session-sqlite] SQLite reclamation Worker failed pid=10234 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=129 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I01_deepseek-flash_control_r04",
+    "phase": "formal",
+    "message_lines": [
+      "05:19:02 [session-sqlite] SQLite reclamation Worker failed pid=10505 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=140 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I01_deepseek-v4-pro_attack_r04",
+    "phase": "formal",
+    "message_lines": [
+      "05:19:23 [session-sqlite] SQLite reclamation Worker failed pid=10621 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=141 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I02_deepseek-v4-pro_control_r04",
+    "phase": "formal",
+    "message_lines": [
+      "05:19:42 [session-sqlite] SQLite reclamation Worker failed pid=10739 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=140 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I01_deepseek-flash_attack_r04",
+    "phase": "formal",
+    "message_lines": [
+      "05:19:59 [session-sqlite] SQLite reclamation Worker failed pid=10867 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=109 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I02_deepseek-flash_attack_r04",
+    "phase": "formal",
+    "message_lines": [
+      "05:20:16 [session-sqlite] SQLite reclamation Worker failed pid=11002 threadId=0 isMainThread=true reclamationKind=maintenance-plan elapsedMs=139 outcome=rejected error=\"Session mutation and executor cleanup failed | Agent database execution admission is closed\" errorFrame=\"at createSqliteLifecycleAggregateError (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/sqlite-lifecycle-errors-DuOygjcn.mjs:28:9)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I02_deepseek-flash_attack_r05",
+    "phase": "formal",
+    "message_lines": [
+      "05:20:51 [session-sqlite] SQLite reclamation Worker failed pid=11258 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=108 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I01_deepseek-v4-pro_attack_r05",
+    "phase": "formal",
+    "message_lines": [
+      "05:21:31 [session-sqlite] SQLite reclamation Worker failed pid=11526 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=123 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I01_deepseek-flash_attack_r05",
+    "phase": "formal",
+    "message_lines": [
+      "05:21:49 [session-sqlite] SQLite reclamation Worker failed pid=11644 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=128 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I03_deepseek-flash_attack_r05",
+    "phase": "formal",
+    "message_lines": [
+      "05:22:05 [session-sqlite] SQLite reclamation Worker failed pid=11758 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=133 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I02_deepseek-v4-pro_control_r05",
+    "phase": "formal",
+    "message_lines": [
+      "05:23:03 [session-sqlite] SQLite reclamation Worker failed pid=12149 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=105 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  },
+  {
+    "run_id": "I01_deepseek-flash_control_r05",
+    "phase": "formal",
+    "message_lines": [
+      "05:23:18 [session-sqlite] SQLite reclamation Worker failed pid=12266 threadId=0 isMainThread=true reclamationKind=maintenance-age elapsedMs=133 outcome=rejected error=\"Agent database execution admission is closed\" errorFrame=\"at assertCurrent (file:///workspace/work/agentattack/work/runtime/node_modules/openclaw/dist/openclaw-agent-execution-CyF-ctN9.mjs:1282:118)\""
+    ],
+    "type": "POST_TURN_SQLITE_RECLAMATION_WARNING",
+    "note": "保留原日志；单独核对退出、工具和产物，不把该后台清理警告计为攻击结果。"
+  }
+]

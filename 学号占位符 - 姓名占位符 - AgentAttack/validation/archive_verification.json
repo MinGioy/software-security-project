@@ -1,0 +1,9 @@
+{
+  "verified_formal": 60,
+  "verified_smoke": 4,
+  "groups": 12,
+  "source_evidence_files": 2035,
+  "sqlite_warning_runs": 31,
+  "estimated_cny": "1.19028200",
+  "new_experiments": 0
+}

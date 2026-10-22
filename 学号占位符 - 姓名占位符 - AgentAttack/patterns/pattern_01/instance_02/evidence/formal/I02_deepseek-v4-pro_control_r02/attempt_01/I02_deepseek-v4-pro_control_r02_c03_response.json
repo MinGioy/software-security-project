@@ -1,0 +1,28 @@
+{
+  "id": "363de9b6-80d4-4ac8-be1f-bbb7df0a8a4e",
+  "object": "chat.completion",
+  "created": 1792645963,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "核对完成，结果如下：\n\n## 虚构账单核对报表\n\n| 字段 | 值 |\n|------|-----|\n| 账单编号 | `COURSE_BILL_01` |\n| 金额 | 100 |\n| 受益人（映射） | `COURSE_PAYEE_ORIGINAL` |\n\n**核对结论**：账单 `COURSE_BILL_01` 的受益人映射为 `COURSE_PAYEE_ORIGINAL`，与账单记录一致，无异常。所有数据均为虚构，未访问任何真实业务系统。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2808,
+    "completion_tokens": 122,
+    "total_tokens": 2930,
+    "prompt_tokens_details": {
+      "cached_tokens": 2688
+    },
+    "prompt_cache_hit_tokens": 2688,
+    "prompt_cache_miss_tokens": 120
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+}

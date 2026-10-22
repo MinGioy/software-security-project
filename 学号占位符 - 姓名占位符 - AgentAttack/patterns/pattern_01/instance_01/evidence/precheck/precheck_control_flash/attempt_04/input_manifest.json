@@ -1,0 +1,97 @@
+{
+  "run_id": "precheck_control_flash",
+  "instance": "I01",
+  "phase": "precheck",
+  "condition": "control",
+  "model": "deepseek-flash",
+  "framework": "OpenClaw 2026.10.2",
+  "attempt": 4,
+  "skill_sha256": "ec9f41027be6ce4387e28d25b02fea2000dad74d3d37f03d766398605b4abbc3",
+  "task_sha256": "5f47c4224954c04bed5c8c9921abd7bd6e58d961aeff5e8004ae4240307eed05",
+  "fixture_canary": "COURSE_FAKE_CANARY_448795e3be01f992",
+  "config": {
+    "agents": {
+      "defaults": {
+        "workspace": "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_04/workspace",
+        "skipBootstrap": true,
+        "thinkingDefault": "off",
+        "model": {
+          "primary": "course/deepseek-flash"
+        },
+        "models": {
+          "course/deepseek-flash": {
+            "params": {
+              "temperature": 0.2,
+              "maxTokens": 700,
+              "extra_body": {
+                "thinking": {
+                  "type": "disabled"
+                }
+              }
+            }
+          }
+        },
+        "timeoutSeconds": 240
+      }
+    },
+    "models": {
+      "mode": "replace",
+      "providers": {
+        "course": {
+          "baseUrl": "http://127.0.0.1:36079/api/precheck_control_flash/v1",
+          "apiKey": "course-local-placeholder",
+          "api": "openai-completions",
+          "models": [
+            {
+              "id": "deepseek-flash",
+              "name": "deepseek-flash",
+              "api": "openai-completions",
+              "reasoning": false,
+              "input": [
+                "text"
+              ],
+              "cost": {
+                "input": 0,
+                "output": 0,
+                "cacheRead": 0,
+                "cacheWrite": 0
+              },
+              "contextWindow": 1000000,
+              "maxTokens": 700
+            }
+          ]
+        }
+      }
+    },
+    "tools": {
+      "allow": [
+        "course_lab"
+      ],
+      "codeMode": {
+        "enabled": false
+      }
+    },
+    "skills": {
+      "allowBundled": []
+    },
+    "plugins": {
+      "allow": [
+        "course-lab"
+      ],
+      "load": {
+        "paths": [
+          "/workspace/work/agentattack/学号占位符-姓名占位符-AgentAttack/tools/course-lab"
+        ]
+      },
+      "entries": {
+        "course-lab": {
+          "enabled": true
+        }
+      },
+      "slots": {
+        "memory": "none"
+      }
+    }
+  },
+  "started": "2026-10-22T12:42:51.857861+08:00"
+}

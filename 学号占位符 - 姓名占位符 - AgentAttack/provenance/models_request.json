@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-10-13T16:06:40.043718+08:00",
+  "method": "GET",
+  "url": "https://api.deepseek.com/models",
+  "authorization_recorded": false,
+  "inference_called": false,
+  "http_status": 200,
+  "elapsed_seconds": 0.784,
+  "status": "SUCCESS",
+  "model_ids": [
+    "deepseek-flash",
+    "deepseek-v4-pro"
+  ],
+  "models_file_sha256": "6ae312cc9c782a0baec10e85df7953554bf438f667bfb4d0aa60038d405bcf0f"
+}

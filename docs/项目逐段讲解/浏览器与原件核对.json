@@ -1,0 +1,31 @@
+{
+  "original_all_files_match_zip": 2276,
+  "report_blocks_rendered": 39,
+  "jump_links": [
+    {
+      "id": "book-start",
+      "found": true
+    },
+    {
+      "id": "原报告逐段对照39-个块全部解释",
+      "found": true
+    },
+    {
+      "id": "run-replay",
+      "found": true
+    },
+    {
+      "id": "file-index",
+      "found": true
+    },
+    {
+      "id": "dir-index",
+      "found": true
+    }
+  ],
+  "file_search_content_image_and_pagination": "PASS",
+  "run_options": 71,
+  "browser_page_errors": [],
+  "new_model_calls": 0,
+  "new_experiment_records": 0
+}

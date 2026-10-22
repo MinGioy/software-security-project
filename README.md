@@ -29,3 +29,13 @@ sha256sum -c MANIFEST.sha256
 ZIP SHA-256：`11260e4e700a7388e11d1d290ad74beefbacf8e3665fd1bfcbdc83b9d47b76c7`。
 
 云端源交付快照：`aa293646f4f79909f5b5fda8861f5690b2bdc81a`。此仓库的交付提交接续原 main 分支，不改写已有历史；原实验完整工作区仍在云端保存。
+
+
+## 从零学习这个项目（新增讲解）
+
+- [下载讲解补充包 ZIP](https://github.com/MinGioy/software-security-project/raw/refs/heads/main/backups/%E9%A1%B9%E7%9B%AE%E8%AE%B2%E8%A7%A3%E8%A1%A5%E5%85%85%E5%8C%85.zip)
+- [在线读完整文字讲解](docs/项目逐段讲解/从零读懂项目.md)
+
+下载后解压，用 Edge/Chrome/Firefox 打开“从零读懂项目.html”。网页离线可用，不需要 API key 或安装 OpenClaw：有 39 个报告正文/表格块的原文与白话解释、2,276 个原文件的逐条说明和内容查看、458 个原目录（含根目录）说明、71 条现成尝试的交互回放。也包含技术实现、词汇、字段、费用手算和常见误解。PNG 使用原实验截图，架构图明确为教学示意。
+
+本补充只帮助阅读。原课程交付 ZIP、原报告和实验统计不改变，未新增模型调用或实验记录。

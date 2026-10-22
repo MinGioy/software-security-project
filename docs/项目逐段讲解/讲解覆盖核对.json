@@ -1,0 +1,14 @@
+{
+  "original_zip_sha256": "11260e4e700a7388e11d1d290ad74beefbacf8e3665fd1bfcbdc83b9d47b76c7",
+  "original_zip_files": 2276,
+  "guide_file_entries": 2276,
+  "original_zip_directories_including_root": 458,
+  "guide_directory_entries": 458,
+  "report_source_blocks": 39,
+  "annotated_report_blocks": 39,
+  "attempt_records": 71,
+  "original_evidence_modified": false,
+  "new_model_calls": 0,
+  "scope": "同一原 ZIP 的教学材料；不新增、修补或替换任何实验记录。",
+  "binary_handling": "PNG 嵌入原图；PDF/Word 提取全部正文；普通 ZIP 展示全部成员内容；业务 SQLite 只读展示表与值；历史会话库/WAL/SHM 解释其格式、用途与未验证边界，不把二进制误称普通文本。"
+}

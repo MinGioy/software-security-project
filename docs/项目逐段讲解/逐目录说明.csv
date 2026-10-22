@@ -1,0 +1,459 @@
+﻿完整相对路径,作用,直接文件数,含下级总文件数
+.,交付根目录：报告、说明、模式、证据和支持材料都从这里查找。,9,2276
+patterns,研究模式与具体实例,0,2220
+patterns/pattern_01,唯一攻击模式 P01，假前置条件扩大范围,1,2220
+patterns/pattern_01/instance_01,I01 离线归档与本地 canary 接收,1,954
+patterns/pattern_01/instance_01/attack,带额外假前置段的说明书版本,1,1
+patterns/pattern_01/instance_01/control,只保留正常工作流的对照说明书,1,1
+patterns/pattern_01/instance_01/evidence,本实例的现场证据和各阶段 CSV,1,950
+patterns/pattern_01/instance_01/evidence/formal,进入正式 60 轮统计的运行记录,0,650
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r01,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,33
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r01/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,30,33
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r01/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r01/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r01/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r01/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r02,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,33
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r02/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,30,33
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r02/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r02/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r02/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r02/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r03,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,33
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r03/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,30,33
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r03/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r03/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r03/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r03/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r04,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,33
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r04/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,30,33
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r04/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r04/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r04/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r04/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r05,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,33
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r05/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,30,33
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r05/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r05/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r05/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_attack_r05/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r01,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r01/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,28,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r01/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r01/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r01/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r01/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r02,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r02/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,28,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r02/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r02/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r02/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r02/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r03,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r03/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,28,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r03/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r03/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r03/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r03/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r04,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r04/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,28,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r04/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r04/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r04/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r04/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r05,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r05/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,28,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r05/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r05/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r05/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-flash_control_r05/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r01,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,35
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r01/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,32,35
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r01/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r01/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r01/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r01/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r02,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,35
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r02/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,32,35
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r02/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r02/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r02/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r02/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r03,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,35
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r03/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,32,35
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r03/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r03/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r03/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r03/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r04,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,35
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r04/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,32,35
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r04/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r04/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r04/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r04/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r05,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,35
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r05/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,32,35
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r05/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r05/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r05/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_attack_r05/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r01,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r01/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,28,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r01/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r01/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r01/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r01/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r02,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r02/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,28,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r02/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r02/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r02/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r02/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r03,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r03/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,28,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r03/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r03/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r03/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r03/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r04,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r04/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,28,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r04/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r04/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r04/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r04/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r05,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r05/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,28,31
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r05/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r05/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r05/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/formal/I01_deepseek-v4-pro_control_r05/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/precheck,历史预检与失败尝试，不进入正式分母,0,169
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,138
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,17,25
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state,早期保留的原生框架状态现场，和业务状态快照不同,0,5
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/agents,该历史框架状态的下级存储目录；保留原样供追溯，不参与正式业务目标的独立计数。,0,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/agents/main,该历史框架状态的下级存储目录；保留原样供追溯，不参与正式业务目标的独立计数。,0,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/agents/main/agent,该历史框架状态的下级存储目录；保留原样供追溯，不参与正式业务目标的独立计数。,1,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/state/state,早期保留的原生框架状态现场，和业务状态快照不同,4,4
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_02,同一个 run_id 的第 2 次尝试；要看结果是否有效，不能按目录数算正式成功。,17,21
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_02/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_02/state,早期保留的原生框架状态现场，和业务状态快照不同,0,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_02/state/state,早期保留的原生框架状态现场，和业务状态快照不同,1,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_02/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_02/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_02/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_03,同一个 run_id 的第 3 次尝试；要看结果是否有效，不能按目录数算正式成功。,17,20
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_03/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_03/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_03/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_03/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_04,同一个 run_id 的第 4 次尝试；要看结果是否有效，不能按目录数算正式成功。,18,21
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_04/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_04/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_04/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_04/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_05,同一个 run_id 的第 5 次尝试；要看结果是否有效，不能按目录数算正式成功。,18,21
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_05/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_05/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_05/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_05/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_06,同一个 run_id 的第 6 次尝试；要看结果是否有效，不能按目录数算正式成功。,27,30
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_06/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_06/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_06/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_flash/attempt_06/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_pro,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,31
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_pro/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,28,31
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_pro/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_pro/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_pro/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/precheck/precheck_control_pro/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/smoke,四次独立冒烟中的记录，不进入正式分母,0,130
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r01,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,33
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r01/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,30,33
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r01/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r01/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r01/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r01/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r02,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,31
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r02/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,28,31
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r02/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r02/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r02/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r02/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r03,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,35
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r03/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,32,35
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r03/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r03/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r03/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r03/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r04,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,31
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r04/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,28,31
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r04/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r04/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r04/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_01/evidence/smoke/smoke_r04/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_01/prompts,配对共用的正常用户原话,1,1
+patterns/pattern_01/instance_02,I02 只读账单与映射写入,1,650
+patterns/pattern_01/instance_02/attack,带额外假前置段的说明书版本,1,1
+patterns/pattern_01/instance_02/control,只保留正常工作流的对照说明书,1,1
+patterns/pattern_01/instance_02/evidence,本实例的现场证据和各阶段 CSV,1,646
+patterns/pattern_01/instance_02/evidence/formal,进入正式 60 轮统计的运行记录,0,645
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r01,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,33
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r01/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,30,33
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r01/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r01/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r01/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r01/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r02,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,33
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r02/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,30,33
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r02/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r02/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r02/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r02/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r03,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r03/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r03/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r03/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r03/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r03/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r04,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,33
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r04/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,30,33
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r04/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r04/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r04/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r04/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r05,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,33
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r05/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,30,33
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r05/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r05/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r05/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_attack_r05/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r01,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r01/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r01/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r01/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r01/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r01/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r02,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r02/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r02/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r02/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r02/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r02/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r03,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r03/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r03/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r03/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r03/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r03/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r04,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r04/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r04/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r04/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r04/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r04/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r05,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r05/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r05/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r05/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r05/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-flash_control_r05/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r01,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r01/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r01/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r01/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r01/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r01/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r02,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r02/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r02/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r02/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r02/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r02/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r03,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r03/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r03/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r03/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r03/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r03/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r04,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r04/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r04/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r04/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r04/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r04/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r05,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r05/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r05/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r05/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r05/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_attack_r05/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r01,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r01/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r01/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r01/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r01/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r01/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r02,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,30
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r02/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,27,30
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r02/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r02/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r02/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r02/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r03,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r03/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r03/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r03/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r03/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r03/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r04,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r04/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r04/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r04/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r04/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r04/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r05,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,35
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r05/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,32,35
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r05/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r05/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r05/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_02/evidence/formal/I02_deepseek-v4-pro_control_r05/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_02/prompts,配对共用的正常用户原话,1,1
+patterns/pattern_01/instance_03,I03 单次诊断与额外 mock 作业,1,615
+patterns/pattern_01/instance_03/attack,带额外假前置段的说明书版本,1,1
+patterns/pattern_01/instance_03/control,只保留正常工作流的对照说明书,1,1
+patterns/pattern_01/instance_03/evidence,本实例的现场证据和各阶段 CSV,1,611
+patterns/pattern_01/instance_03/evidence/formal,进入正式 60 轮统计的运行记录,0,610
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r01,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r01/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,27,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r01/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r01/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r01/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r01/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r02,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r02/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,27,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r02/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r02/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r02/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r02/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r03,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r03/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,27,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r03/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r03/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r03/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r03/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r04,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r04/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,27,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r04/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r04/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r04/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r04/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r05,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r05/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,27,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r05/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r05/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r05/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_attack_r05/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r01,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r01/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,27,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r01/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r01/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r01/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r01/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r02,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r02/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,27,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r02/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r02/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r02/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r02/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r03,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r03/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,27,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r03/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r03/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r03/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r03/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r04,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r04/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,27,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r04/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r04/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r04/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r04/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r05,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r05/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,27,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r05/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r05/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r05/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-flash_control_r05/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r01,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r01/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r01/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r01/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r01/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r01/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r02,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r02/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r02/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r02/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r02/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r02/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r03,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r03/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r03/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r03/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r03/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r03/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r04,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r04/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r04/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r04/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r04/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r04/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r05,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,32
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r05/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,29,32
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r05/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r05/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r05/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_attack_r05/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r01,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r01/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,27,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r01/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r01/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r01/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r01/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r02,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r02/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,27,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r02/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r02/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r02/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r02/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r03,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r03/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,27,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r03/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r03/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r03/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r03/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r04,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r04/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,27,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r04/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r04/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r04/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r04/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r05,该 run_id 的单独现场目录：用下级 attempt 区分每次尝试，不与别轮共用状态。,0,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r05/attempt_01,同一个 run_id 的第 1 次尝试；要看结果是否有效，不能按目录数算正式成功。,27,30
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r05/attempt_01/fixtures,本轮虚构配置与业务数据库道具,2,2
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r05/attempt_01/workspace,本轮 Agent 的实际工作区域,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r05/attempt_01/workspace/skills,这轮安装的 Skill 目录,0,1
+patterns/pattern_01/instance_03/evidence/formal/I03_deepseek-v4-pro_control_r05/attempt_01/workspace/skills/course,该轮实际加载的课程 Skill，正文在 SKILL.md,1,1
+patterns/pattern_01/instance_03/prompts,配对共用的正常用户原话,1,1
+provenance,计划、材料来源、冻结版本与历史故障说明,23,23
+results,正式成绩、费用、警告与独立核验汇总,12,12
+runtime,OpenClaw 安装清单与依赖锁，不是已安装依赖,2,2
+scripts,运行、复现、离线验收与排版源码,4,4
+tools,供 OpenClaw 加载的本地工具插件,0,3
+tools/course-lab,课程插件的声明、元数据与实际注册代码,3,3
+validation,成稿归档、文档与复现包装器离线验收记录,3,3
